@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>George Karani</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./assets/logo/1.jpg">
+</head>
+
+<!----------------------------- DELANI STUDIO------------------------>
+<body>
+  <div id="delani">
+    <div>
+      <img src="./assets/logo/logo.png" alt="" class="lazy">
+      <p>loading...</p>
+    </div>
+  </div>
+
+  <!----------------------------- Home PAGE=YELLOw ON LOAD------------------------ -->
+  <div id="top"></div>
+  <header id="head" class="container-fluid beforeLoad">
+    <div>
+      <img src="./assets/logo/logo.png" alt="Karani photo" lazyload="on" class="lazy">
+      <h1>GEORGE KARANI</h1>
+      <p><br>SOFTWARE DEVELOPER / BUSINESS INNOVATOR</p>
+    </div>
+
+    <!----------------------opening ------- ABOUT US-------------------->
+    <div>
+      <a href="#aboutUs"><img src="./assets/mouse_click.png" class="mouse " alt="Mouse"></a>
+    </div>
+  </header>
+
+  <!-- ----------------------ABOUT US-------------------------- -->
+  <section id="aboutUs" class="container">
+    <div>
+      <h3>ABOUT ME</h3>
+      <p><br>A Passionate innovation technology student, pursuing an undergraduate degree in <strong>Business Innovation
+      Technology Management</strong> at Jomo Kenyatta University of Agriculture and Technology; with a great
+      deal of proficiency on cutting-edge design trends and best practices, including <strong>SoftWare Development,</strong> computer application,
+      and innovation design: Keen on gaining real-world experience in the
+      technology industry, and refining application design and innovation 
+      <br><br><a href="assets/mypdf.pdf" download="Download file here">RESUME'</a></p>
+    </div>
+    <!-- -----------------------SERVICES ------------------------>
+  </section>
+  <section id="services">
+    <div></div>
+    <h3>SERVICES</h3>
+    <p>WEB DESIGN/DEVELOPER<br>PRODUCT STRATEGY<br>PRODUCT DEVELOPENT<br></p>
+  </section>
+
+  <!-----------------WHAT WE DO WITH-----------------FUNCTIONS ON JS--------------- -->
+  <section id="whatWeDo" class="d-flex flex-wrap align-content-center justify-content-around">
+    <h3>WHAT I DO<br></h3>
+    <div class="whatDo">
+      <img class="hide-img lazy" data-src="./assets/services_icons/design_icon.png">
+      <p>DESIGN</p>
+      <div class="text">
+        <p class="p">My design practice offers a full range of services including; interaction,visual design
+        and user experience testing.</p>
+      </div>
+    </div>
+
+    <!-----------------------------WHAT WE DO WITH FUNCTIONS ON JS----------------- -->
+    <div class="whatDo">
+      <img data-src="./assets/services_icons/dev_icon.png" alt="Development" class="hide-img lazy" lazyload="on">
+      <p>PRODUCT DEVELOPMENT</p>
+      <div class="text">
+        <p class="p">I am fluent in the latest enterprise and web development technologies:<br><strong>Javascript(jquery)<br>HTML<br>CSS(Bootstrap)</strong><br><a href="https://github.com/georgekarani/Triangle-tracker.git"></a></p>
+      </div>
+    </div>
+
+    <!-------------------- --------------------WHAT WE DO SECTION--------------------------------------- -->
+    <div class="whatDo">
+      <img data-src="./assets/services_icons/product_icon.png" alt="Product management" class="hide-img lazy" lazyload="on">
+      <p>TEAM COLLABORATION</p>
+      <div class="text">
+        <p class="p">Planning and development is interative. With my effective oral and written communication skills allows me to collaborate with any team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p> 
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------- PORTFOLIO---------------------------->
+  <section id="portfolio" class="container d-flex flex-row flex-wrap align-content-center justify-content-around " lazyload="on">
+
+    <!------------------------------ PORTFOLIO WITH IMAGES--------------------------------- -->
+    <h3>PORTFOLIO</h3>  
+  </div>
+  <div class="up">
+    <div class="down">
+      <p><a href="assets/mypdf.pdf" download="Download file here">RESUME'</a></p>
+    </div>
+    <img data-src="./assets/portfolio/work2.jpg" alt="work2" lazyload="on" class="lazy">
+    <a href="GEORGE KARANI GAKUUBI RESUME 2019.pdf" download="Download file here"></a>
+    
+  </section>
+  <!-- --------------------CONTACT INFORMATION-EMAIL(.JS)---from brackets----------------------------------------->
+  <section id="contact" class="container-fluid" class="col-12">
+    <h3 class="">CONTACT ME<br><h6>georgekarani77@gmail.com<h6></h3>
+      <span class="message"></span>
+      <form action="" class="" id="submission">
+        <input type="text" placeholder="First Name...">
+        <input type="text" placeholder="Second Name...">
+        <input type="email" name="" id="mail" placeholder="Email...">
+        <textarea name="" id="" cols="10" rows="5" placeholder="Your message here..."></textarea>
+        <input type="Submit"class="btn-success btn-xs">
+      </form>
+    </section>
+    <!-- --------------------------------SOCIAL MEDIA---------------------------- -->
+    <footer>
+      <a href=""><img data-src="./assets/social_icons/you_tube.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/twitter.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/facebook.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img data-src="./assets/social_icons/skype.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img data-src="./assets/social_icons/pinterest.png" alt="" lazyload="on" class="lazy"></a>
+      <p>GEORGE KARANI<br>2019</p>
+    </footer>
+
+    <!-----------add jquery links to bottom of body for page to load------>
+    <script src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.lazy.min.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+  </html>
